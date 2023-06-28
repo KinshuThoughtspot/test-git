@@ -34,7 +34,7 @@ answer:
     client_state: ""
     client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
   chart:
-    type: COLUMN
+    type: STACKED_COLUMN
     chart_columns:
     - column_id: Ship Mode
     - column_id: Total Tax
@@ -46,8 +46,8 @@ answer:
       - Total Tax
       - Total Adjusted Tax
     client_state: ""
-    client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"e44c68e2-8a83-494e-b833-6818607dbbba\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Tax\"],\"isOpposite\": false}},{\"id\": \"eadebb50-9412-4e16-91ad-c02a7b415d49\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Adjusted Tax\"],\"isOpposite\": true}},{\"id\": \"22fcac66-95d3-47c1-bd32-321adec41a49\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Ship Mode\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Tax\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Adjusted Tax\",\"color\": \"#2E75F0\"}]}"
-  display_mode: TABLE_MODE
+    client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {}},\"axisProperties\": [{\"id\": \"987578fa-47a3-4f8b-92db-fdd6e55ea32c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Tax\",\"Total Adjusted Tax\"],\"isOpposite\": false}},{\"id\": \"2edc47a4-bd9d-433d-ad0c-9f09249fafed\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Ship Mode\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Tax\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Adjusted Tax\",\"color\": \"#2E75F0\"}]}"
+  display_mode: CHART_MODE
   parameter_values:
   - key: Date Param
     value: 10/16/1994
