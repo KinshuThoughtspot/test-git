@@ -1,0 +1,40 @@
+guid: 41de49c4-a6da-4639-8b9f-8e334cac9a61
+liveboard:
+  name: tsadmin's first Liveboard
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total ADMIN_LEVEL by COUNTRY_CODE
+      tables:
+      - id: CITY
+        name: CITY
+        fqn: 5691e2a4-9541-4327-a088-f75bb193d1cc
+      search_query: "[ADMIN_LEVEL] [COUNTRY_CODE]"
+      answer_columns:
+      - name: Total ADMIN_LEVEL
+      - name: COUNTRY_CODE
+      table:
+        table_columns:
+        - column_id: COUNTRY_CODE
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Total ADMIN_LEVEL
+          headline_aggregation: SUM
+        ordered_column_ids:
+        - COUNTRY_CODE
+        - Total ADMIN_LEVEL
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: STACKED_COLUMN
+        chart_columns:
+        - column_id: COUNTRY_CODE
+        - column_id: Total ADMIN_LEVEL
+        axis_configs:
+        - x:
+          - COUNTRY_CODE
+          "y":
+          - Total ADMIN_LEVEL
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {}},\"columnProperties\": [{\"columnId\": \"COUNTRY_CODE\",\"columnProperty\": {}},{\"columnId\": \"Total ADMIN_LEVEL\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"a6839f2a-8a33-4e12-85b9-257ab9660166\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total ADMIN_LEVEL\"],\"isOpposite\": false}},{\"id\": \"f4f80832-b2e1-4432-b1e0-cb59f2c7ae7a\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"COUNTRY_CODE\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total ADMIN_LEVEL\",\"color\": \"#06BF7F\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: c97f70fb-0776-4bb0-8103-009c5bd3f36e
